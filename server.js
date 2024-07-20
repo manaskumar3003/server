@@ -25,7 +25,7 @@ app.listen(port, () => {
 
 
 //user route 
-app.use('/user', require('./routes/useRouter'))
+// app.use('/user', require('./routes/useRouter'))
 app.use('/blog', require('./routes/blogRouter'))
 
 
